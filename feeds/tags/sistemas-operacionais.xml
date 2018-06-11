@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>Klaus Laube - sistemas-operacionais</title><link>https://klauslaube.com.br/</link><description>Python, Django e desenvolvimento Web</description><lastBuildDate>Wed, 01 Dec 2010 21:14:00 -0200</lastBuildDate><item><title>Virtualbox: Uma maneira interessante de possuir vários SOs em uma máquina só</title><link>https://klauslaube.com.br/2010/12/01/virtualbox-varios-sos-numa-maquina-so.html</link><description>&lt;p&gt;&lt;img class="align-left" src="/images/blog/virtualizacao.jpg" width="180" height="180" title="Representação de virtualização" alt="Representação de virtualização"&gt;
+Sabe quando você quer testar uma distribuição (ou &lt;em&gt;SO&lt;/em&gt;) diferente mas não quer mexer diretamente no
+particionamento do seu &lt;em&gt;HD&lt;/em&gt;? Ou quando você precisar propor uma máquina
+individual para serviços &lt;a href="https://klauslaube.com.br/tag/web.html" title="Leia mais sobre Web"&gt;&lt;em&gt;Web&lt;/em&gt;&lt;/a&gt;, mas não tem &lt;em&gt;hardware&lt;/em&gt; sobrando para
+isto? Ou quando você precisa ficar movendo um ambiente completo entre
+máquinas ou locais? Ou ainda, quando você precisa disponibilizar um
+&lt;em&gt;sandbox&lt;/em&gt; dentro do seu sistema em uso?&lt;/p&gt;
+&lt;p&gt;Virtualização pode ser a resposta para os seus problemas!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Klaus Peter Laube</dc:creator><pubDate>Wed, 01 Dec 2010 21:14:00 -0200</pubDate><guid isPermaLink="false">tag:klauslaube.com.br,2010-12-01:/2010/12/01/virtualbox-varios-sos-numa-maquina-so.html</guid><category>infraestrutura</category><category>sistemas-operacionais</category><category>virtualizacao</category><category>virtualbox</category></item></channel></rss>

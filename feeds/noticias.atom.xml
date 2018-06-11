@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Klaus Laube - notícias</title><link href="https://klauslaube.com.br/" rel="alternate"></link><link href="https://klauslaube.com.br/feeds/noticias.atom.xml" rel="self"></link><id>https://klauslaube.com.br/</id><updated>2011-01-11T12:16:00-02:00</updated><entry><title>Tiobe elege o Python como a linguagem de programação de 2010</title><link href="https://klauslaube.com.br/2011/01/11/tiobe-elege-python-como-linguagem-de-programacao.html" rel="alternate"></link><published>2011-01-11T12:16:00-02:00</published><updated>2011-01-11T12:16:00-02:00</updated><author><name>Klaus Peter Laube</name></author><id>tag:klauslaube.com.br,2011-01-11:/2011/01/11/tiobe-elege-python-como-linguagem-de-programacao.html</id><summary type="html">&lt;p&gt;&lt;img class="align-left" src="/images/blog/python-logo.png" width="180" height="180" title="Logotipo do Python" alt="Logotipo do Python"&gt;
+Não é de hoje que &lt;a href="https://klauslaube.com.br/tag/python.html" title="Leia mais sobre Python"&gt;&lt;em&gt;Python&lt;/em&gt;&lt;/a&gt; conquistou o
+respeito dos mais diversos entusiastas do mercado de Tecnologia da
+Informação de todo o mundo… e era questão de tempo para que esse
+reconhecimento fosse “sacramentado”.&lt;/p&gt;
+&lt;p&gt;O &lt;a href="http://henriquebastos.net/2011/01/09/python-e-eleito-a-linguagem-de-2010/" title="Python é eleito a linguagem de 2010"&gt;&lt;em&gt;Henrique Bastos&lt;/em&gt;&lt;/a&gt; divulgou na &lt;a href="http://groups.google.com/group/django-brasil" title="Grupo de discussão Django Brasil"&gt;lista de discussão do &lt;em&gt;Django&lt;/em&gt;&lt;/a&gt; a
+notícia que a &lt;a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html" title="January Headline: Python wins the TIOBE Programming Language Award of 2010!"&gt;&lt;em&gt;Tiobe&lt;/em&gt; elegeu …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img class="align-left" src="/images/blog/python-logo.png" width="180" height="180" title="Logotipo do Python" alt="Logotipo do Python"&gt;
+Não é de hoje que &lt;a href="https://klauslaube.com.br/tag/python.html" title="Leia mais sobre Python"&gt;&lt;em&gt;Python&lt;/em&gt;&lt;/a&gt; conquistou o
+respeito dos mais diversos entusiastas do mercado de Tecnologia da
+Informação de todo o mundo… e era questão de tempo para que esse
+reconhecimento fosse “sacramentado”.&lt;/p&gt;
+&lt;p&gt;O &lt;a href="http://henriquebastos.net/2011/01/09/python-e-eleito-a-linguagem-de-2010/" title="Python é eleito a linguagem de 2010"&gt;&lt;em&gt;Henrique Bastos&lt;/em&gt;&lt;/a&gt; divulgou na &lt;a href="http://groups.google.com/group/django-brasil" title="Grupo de discussão Django Brasil"&gt;lista de discussão do &lt;em&gt;Django&lt;/em&gt;&lt;/a&gt; a
+notícia que a &lt;a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html" title="January Headline: Python wins the TIOBE Programming Language Award of 2010!"&gt;&lt;em&gt;Tiobe&lt;/em&gt; elegeu o &lt;em&gt;Python&lt;/em&gt; como linguagem de 2010&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;O &lt;em&gt;Python&lt;/em&gt; agora ocupa a quinta colocação da tabela da &lt;em&gt;Tiobe&lt;/em&gt;, atrás
+somente de &lt;em&gt;Java&lt;/em&gt;, &lt;em&gt;C&lt;/em&gt;, &lt;em&gt;C++&lt;/em&gt; e &lt;a href="https://klauslaube.com.br/tag/php.html" title="Leia mais sobre PHP"&gt;&lt;em&gt;PHP&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;O sucesso deve-se desde a rica documentação, até as excepcionais
+&lt;em&gt;frameworks&lt;/em&gt; que tornam a linguagem uma das ferramentas modernas mais
+poderosas (e ágeis) para desenvolvimento de &lt;em&gt;software&lt;/em&gt;.&lt;/p&gt;</content><category term="noticias"></category><category term="tiobe"></category><category term="python"></category></entry><entry><title>Órfão do Delicious? Eu também!</title><link href="https://klauslaube.com.br/2010/12/20/orfao-delicious-eu-tambem.html" rel="alternate"></link><published>2010-12-20T20:58:00-02:00</published><updated>2010-12-20T20:58:00-02:00</updated><author><name>Klaus Peter Laube</name></author><id>tag:klauslaube.com.br,2010-12-20:/2010/12/20/orfao-delicious-eu-tambem.html</id><summary type="html">&lt;p&gt;&lt;img class="align-left" src="/images/blog/delicious-logo.jpg" width="180" height="180" title="Delicious descontinuado?" alt="Delicious descontinuado?"&gt;&lt;/p&gt;
+&lt;p&gt;Para os desavisados, o &lt;a href="http://br.yahoo.com/?p=us" title="Visite o site do Yahoo!"&gt;&lt;em&gt;Yahoo!&lt;/em&gt;&lt;/a&gt;
+anunciou que irá &lt;a href="http://www.band.com.br/jornalismo/tecnologia/conteudo.asp?ID=100000380065" title="Yahoo vai fechar Delicious, AltaVista e outros seis sites"&gt;descontinuar&lt;/a&gt; / &lt;a href="http://www.lazertecnologia.com/2010/12/18/o-delicious-nao-sera-fechado-mas-sim-vendido/" title="O Delicious não será fechado, mas sim vendido"&gt;vender&lt;/a&gt; uma série de serviços,
+inclusive o (meu queridíssimo) &lt;a href="http://www.delicious.com/" title="Ainda dá tempo de visitar o Delicious"&gt;&lt;em&gt;Delicious&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A alegação (se é que é oficial) é a falta de aplicabilidade dentro de um
+modelo de negócios rentável à companhia. Esta decisão irá afetar
+milhares de usuários que utilizam a simpática “ferramenta azul” para
+compartilhar/armazenar seus favoritos.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;&lt;img class="align-left" src="/images/blog/delicious-logo.jpg" width="180" height="180" title="Delicious descontinuado?" alt="Delicious descontinuado?"&gt;&lt;/p&gt;
+&lt;p&gt;Para os desavisados, o &lt;a href="http://br.yahoo.com/?p=us" title="Visite o site do Yahoo!"&gt;&lt;em&gt;Yahoo!&lt;/em&gt;&lt;/a&gt;
+anunciou que irá &lt;a href="http://www.band.com.br/jornalismo/tecnologia/conteudo.asp?ID=100000380065" title="Yahoo vai fechar Delicious, AltaVista e outros seis sites"&gt;descontinuar&lt;/a&gt; / &lt;a href="http://www.lazertecnologia.com/2010/12/18/o-delicious-nao-sera-fechado-mas-sim-vendido/" title="O Delicious não será fechado, mas sim vendido"&gt;vender&lt;/a&gt; uma série de serviços,
+inclusive o (meu queridíssimo) &lt;a href="http://www.delicious.com/" title="Ainda dá tempo de visitar o Delicious"&gt;&lt;em&gt;Delicious&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A alegação (se é que é oficial) é a falta de aplicabilidade dentro de um
+modelo de negócios rentável à companhia. Esta decisão irá afetar
+milhares de usuários que utilizam a simpática “ferramenta azul” para
+compartilhar/armazenar seus favoritos.&lt;/p&gt;
+
+
+&lt;p&gt;Eu possuo mais de 1.000 (mil) &lt;em&gt;bookmarks&lt;/em&gt; na ferramenta! É a minha
+&lt;em&gt;webapp&lt;/em&gt; favorita (depois do &lt;a href="http://www.organizze.com.br/" title="Organizador de despesas pessoais"&gt;&lt;em&gt;Organizze&lt;/em&gt;&lt;/a&gt;)… mas este é um exemplo
+muito bom de que: número de usuários não é sinônimo de longevidade
+(cuidado aê &lt;a href="http://www.twitter.com/kplaube" title="Tem twitter? Me adiciona"&gt;&lt;em&gt;Twitter&lt;/em&gt;&lt;/a&gt; (: ). Vale uma boa análise, como uma
+ferramenta amplamente usada e adorada pode ser simplesmente
+descontinuada?&lt;/p&gt;
+&lt;h2&gt;A opção: migração&lt;/h2&gt;
+&lt;p&gt;Com a notícia, começaram a pipocar (ou simplesmente a ganhar mais
+destaque) alternativas ao &lt;em&gt;Delicious&lt;/em&gt;. Hoje mesmo achei no
+&lt;a href="http://www.webdistortion.com/" title="Visite o Webdistortion"&gt;&lt;em&gt;Webdistortion&lt;/em&gt;&lt;/a&gt; o post “&lt;a href="http://blog.webdistortion.com/2010/12/19/23-lesser-spotted-delicious-alternatives/" title="Conheça alternativas ao Delicious"&gt;&lt;em&gt;23 lesser spotted delicious
+alternatives&lt;/em&gt;&lt;/a&gt;“.&lt;/p&gt;
+&lt;p&gt;Vale citar duas alternativas contidas no &lt;em&gt;post&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://1r7.net/" title="O 1R7 é idêntico ao Delicious! Experimente!"&gt;&lt;em&gt;1r7.net&lt;/em&gt;&lt;/a&gt;: Uma ferramenta totalmente baseada no &lt;em&gt;Delicious&lt;/em&gt;,
+    inclusive que permite importar os arquivos de &lt;em&gt;backup&lt;/em&gt; do
+    &lt;em&gt;Delicious&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://zootool.com/" title="O ZooTool é estiloso!"&gt;&lt;em&gt;Zootool.com&lt;/em&gt;&lt;/a&gt;: Outra ferramenta capaz de importar os &lt;em&gt;backups&lt;/em&gt; 
+    do &lt;em&gt;Delicious&lt;/em&gt;. O diferencial desta é o &lt;em&gt;design&lt;/em&gt; super estiloso.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para quem não sabia (eu estava incluso), existe a opção para exportar
+seus favoritos do &lt;em&gt;Delicious&lt;/em&gt; para &lt;em&gt;HTML&lt;/em&gt; (em &lt;strong&gt;Settings &gt; Bookmarks &gt;
+Export / Backup Bookmarks&lt;/strong&gt;). Dessa forma, temos alternativas e temos
+como transportar os dados para elas.&lt;/p&gt;
+&lt;p&gt;No fim das contas, não estamos totalmente “ferrados”.&lt;/p&gt;
+&lt;p&gt;Quem sabe isso não gere motivação suficiente para experimentar o
+&lt;a href="http://digg.com/news" title="The lastest news headlines, videos and images"&gt;&lt;em&gt;Digg&lt;/em&gt;&lt;/a&gt; ou o &lt;a href="http://www.stumbleupon.com/" title="Discover the Best of the Web"&gt;&lt;em&gt;StumbleUpon&lt;/em&gt;&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;Até a próxima…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; Segundo o &lt;em&gt;TechCrunch&lt;/em&gt;, o &lt;a href="http://techcrunch.com/2010/12/16/is-yahoo-shutting-down-del-icio-us/" title="Is Yahoo Shutting Down Del.icio.us? [Update: Del.icio.us Responds]"&gt;&lt;em&gt;Delicious&lt;/em&gt; tende a continuar
+fora do &lt;em&gt;Yahoo!&lt;/em&gt;&lt;/a&gt; (ou seja, mais indícios que o &lt;em&gt;Delicious&lt;/em&gt; será
+vendido e não fechado).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;UPDATE&lt;/span&gt; 2:&lt;/strong&gt; Acabei de conhecer o
+&lt;a href="http://busk.com/" title="A rede social de notícias"&gt;&lt;em&gt;Busk.com&lt;/em&gt;&lt;/a&gt;. Trata-se de uma rede social de notícias “brazuca”, bem
+clean e simpática.&lt;/p&gt;</content><category term="noticias"></category><category term="delicious"></category></entry></feed>

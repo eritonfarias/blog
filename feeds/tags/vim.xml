@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>Klaus Laube - vim</title><link>https://klauslaube.com.br/</link><description>Python, Django e desenvolvimento Web</description><lastBuildDate>Mon, 04 Jun 2018 16:30:00 -0300</lastBuildDate><item><title>Eu me rendo: VS Code</title><link>https://klauslaube.com.br/2018/06/04/eu-me-rendo-vscode.html</link><description>&lt;p&gt;&lt;img class="align-left" src="/images/blog/vscode-logo.png" width="180" height="180" title="Logo do VS Code" alt="Logo do VS Code"&gt;&lt;/p&gt;
+&lt;p&gt;É, caro leitor... chegou o dia de admitir que tenho usado outro editor
+além do &lt;a href="https://klauslaube.com.br/tag/vim.html" title="Leia mais sobre o melhor editor do universo"&gt;&lt;em&gt;Vim&lt;/em&gt;&lt;/a&gt;. Pode
+me julgar, me chamar de "poser" ou de "vendido", mas acontece que tenho descoberto no
+&lt;a href="https://code.visualstudio.com/" title="Conheça o VS Code"&gt;&lt;em&gt;VS Code&lt;/em&gt;&lt;/a&gt;, da &lt;em&gt;Microsoft&lt;/em&gt;,
+uma excelente ferramenta para desenvolvimento &lt;a href="https://klauslaube.com.br/tag/web.html" title="Leia mais sobre Web"&gt;&lt;em&gt;Web&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Klaus Peter Laube</dc:creator><pubDate>Mon, 04 Jun 2018 16:30:00 -0300</pubDate><guid isPermaLink="false">tag:klauslaube.com.br,2018-06-04:/2018/06/04/eu-me-rendo-vscode.html</guid><category>desenvolvimento</category><category>web</category><category>editores</category><category>ide</category><category>vscode</category><category>vim</category><category>python</category><category>css</category><category>javascript</category></item><item><title>Vim para desenvolvimento em Python</title><link>https://klauslaube.com.br/2017/10/15/vim-para-desenvolvimento-python.html</link><description>&lt;p&gt;&lt;img class="align-left" src="/images/blog/macvim-logo.png" width="180" height="180" title="Logotipo do MacVim" alt="Logotipo do MacVim"&gt;&lt;/p&gt;
+&lt;p&gt;Já mencionei as motivações de utilizar &lt;a href="https://klauslaube.com.br/tag/vim.html" title="Leia mais sobre Vim"&gt;&lt;em&gt;Vim&lt;/em&gt;&lt;/a&gt;
+no &lt;a href="https://klauslaube.com.br/2013/03/04/vim-o-meu-editor-favorito.html" title="Leia o artigo completo"&gt;"Vim: O meu editor favorito"&lt;/a&gt;.
+E embora eu já tenha "caído em tentação" e utilizado &lt;a href="https://atom.io/" title="A hackable text editor"&gt;&lt;em&gt;Atom&lt;/em&gt;&lt;/a&gt;
+e &lt;a href="http://spacemacs.org/" title="The best editor is neither Emacs nor Vim, it's Emacs and Vim!"&gt;&lt;em&gt;Spacemacs&lt;/em&gt;&lt;/a&gt;
+(esse último é simplesmente fantástico), acabo sempre retornando ao &lt;em&gt;Vim&lt;/em&gt;. Principalmente
+após o &lt;a href="https://www.reddit.com/r/linux/comments/52e4qo/vim_8_released/" title="Vim 8 released"&gt;lançamento da versão 8&lt;/a&gt;,
+onde processamento assíncrono foi adicionado ao editor.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Klaus Peter Laube</dc:creator><pubDate>Sun, 15 Oct 2017 19:20:00 -0200</pubDate><guid isPermaLink="false">tag:klauslaube.com.br,2017-10-15:/2017/10/15/vim-para-desenvolvimento-python.html</guid><category>desenvolvimento</category><category>ambiente-de-desenvolvimento</category><category>editores-de-texto</category><category>vim</category><category>python</category></item><item><title>Vim: O meu editor favorito</title><link>https://klauslaube.com.br/2013/03/04/vim-o-meu-editor-favorito.html</link><description>&lt;p&gt;&lt;img class="align-left" src="/images/blog/vim-logo.png" width="180" height="180" title="Logo do editor VIM" alt="Logo do editor VIM"&gt;
+Há um bom tempo que eu trabalho com o &lt;a href="http://www.vim.org/" title="Página oficial do Vim"&gt;&lt;em&gt;Vim&lt;/em&gt;&lt;/a&gt;,
+tanto tempo que quando estou em qualquer outro editor escrevo &lt;strong&gt;:wq&lt;/strong&gt;
+para salvar e sair.&lt;/p&gt;
+&lt;p&gt;Mas não comecei a utilizar o &lt;em&gt;Vim&lt;/em&gt; por gostar de desafios… foi pura
+necessidade! Trabalhei em uma empresa onde desenvolvíamos em uma máquina
+remota, através de linha de comando. Logo, entre o &lt;em&gt;Vim&lt;/em&gt; e &lt;em&gt;Emacs&lt;/em&gt; (ou
+ficar subindo arquivos via &lt;em&gt;FTP&lt;/em&gt; ou &lt;em&gt;SSH&lt;/em&gt;), optei pelo mais fácil de
+usar. É claro que no início eu não conseguia encontrar facilidade de
+jeito nenhum. Navegar pelas teclas &lt;strong&gt;h&lt;/strong&gt;, &lt;strong&gt;j&lt;/strong&gt;, &lt;strong&gt;k&lt;/strong&gt; e &lt;strong&gt;l&lt;/strong&gt; não fazia
+sentido nenhum para mim, sem falar que (segundo os meus colegas de
+trabalho) utilizar o &lt;strong&gt;PageUp&lt;/strong&gt; , &lt;strong&gt;PageDown&lt;/strong&gt;, &lt;strong&gt;Home&lt;/strong&gt; e &lt;strong&gt;End&lt;/strong&gt; era
+praticamente uma heresia.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Klaus Peter Laube</dc:creator><pubDate>Mon, 04 Mar 2013 22:34:38 -0300</pubDate><guid isPermaLink="false">tag:klauslaube.com.br,2013-03-04:/2013/03/04/vim-o-meu-editor-favorito.html</guid><category>desenvolvimento</category><category>ambiente-de-desenvolvimento</category><category>editores-de-texto</category><category>vim</category></item></channel></rss>

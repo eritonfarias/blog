@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title>Python, Django e desenvolvimento Web | Klaus Laube</title>
+
+  <meta name="author" content="Klaus Peter Laube">
+  <meta name="description" content="Artigos sobre desenvolvimento Web, Python e Django.">
+  <meta name="robots" content="index,follow">
+
+  <meta property="og:site_name" content="Klaus Laube">
+  <meta property="og:type" content="website">
+    <meta property="og:image" content="https://klauslaube.com.br/images/opengraph.jpg">
+
+    <meta property="fb:app_id" content="262757647133878">
+
+    <meta name="google-site-verification" content="xCq0H3B3JhkPcAdZ03J0vayijvH_g1rQVMZ_DVcMsQY">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="https://klauslaube.com.br/favicon.ico">
+
+  <link rel="alternate" type="application/rss+xml" title="Klaus Laube &raquo; Feed" href="https://klauslaube.com.br/feed/rss.xml">
+  <link rel="canonical" href="https://klauslaube.com.br/index3.html">
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+      <link rel="stylesheet" href="https://klauslaube.com.br/theme/css/styles.min.css?499002e8">
+</head>
+<body>
+  <div class="Page pure-g ">
+<div class="PageHeader pure-u-1">
+    <nav class="pure-menu pure-menu-open pure-menu-horizontal">
+
+        <a
+			href="https://klauslaube.com.br/index.html"
+            title="Home page"
+            class="PageHeader-link pure-menu-heading pure-menu-link">Klaus<span class="u-highlighted">Laube</a>
+
+			<ul class="PageHeader-menu pure-menu-list">
+                    <li class="pure-menu-item">
+                        <a href="https://klauslaube.com.br/pages/contato.html" class="PageHeader-menu-link pure-menu-link">Contato</a>
+                    </li>
+			</ul>
+    </nav>
+</div>
+    <div class="PageContent pure-u-1">
+
+<article class="Article u-box" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop="url" content="https://klauslaube.com.br//images/blog/django-js-logo.png">
+        </div>
+    <span itemprop="mainEntityOfPage">
+        <header>
+            <h1 class="Article-title" itemprop="headline name">
+                    <a
+                        class="Article-titleLink"
+                        href="https://klauslaube.com.br/2016/06/20/django-e-es6-com-django-compressor.html"
+                        title="Leia mais">
+                Django e ES6 com django-compressor
+                    </a>
+            </h1>
+
+        </header>
+
+        <div class="Article-content" itemprop="articleBody">
+                <p><img class="align-left" src="/images/blog/django-js-logo.png" width="180" height="180" title="Logo do Django e Javascript" alt="Logo do Django e Javascript"></p>
+<p>No <a href="https://klauslaube.com.br/2016/06/04/django-e-sass-com-django-compressor.html" title="Django e Sass com django-compressor"><em>post</em> anterior</a>,
+falamos sobre como utilizar o <a href="https://klauslaube.com.br/tag/sass.html" title="Leia mais sobre Sass"><em>Sass</em></a>
+com o <em>framework</em> <a href="https://klauslaube.com.br/tag/django.html" title="Leia mais sobre Django"><em>Django</em></a>
+através da biblioteca <em>Compressor</em> (e sem necessitar de uma
+ferramenta intermediária para <em>build</em>). Nesse artigo, vamos utilizar
+o mesmo conceito e apresentar uma forma diferente de utilizar
+a nova versão do <a href="https://klauslaube.com.br/tag/javascript.html" title="Leia mais sobre Javascript"><em>Javascript</em></a>
+com o <code>django-compressor</code>.</p>
+
+                <p class="Article-footer">
+                    Em <time datetime="2016-06-20T23:04:00-03:00" itemprop="datePublished">20 jun, 2016</time>
+                    /
+                    <a
+                        class="Article-readmore"
+                        href="https://klauslaube.com.br/2016/06/20/django-e-es6-com-django-compressor.html"
+                        title="Leia o artigo completo">Leia mais &gt</a>
+                </p>
+        </div>
+    </span>
+
+</article><article class="Article u-box" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop="url" content="https://klauslaube.com.br//images/blog/django-sass-logo.png">
+        </div>
+    <span itemprop="mainEntityOfPage">
+        <header>
+            <h1 class="Article-title" itemprop="headline name">
+                    <a
+                        class="Article-titleLink"
+                        href="https://klauslaube.com.br/2016/06/04/django-e-sass-com-django-compressor.html"
+                        title="Leia mais">
+                Django e Sass com django-compressor
+                    </a>
+            </h1>
+
+        </header>
+
+        <div class="Article-content" itemprop="articleBody">
+                <p><img class="align-left" src="/images/blog/django-sass-logo.png" width="180" height="180" title="Logo do Django e Sass" alt="Logo do Django e Sass"></p>
+<p>Eu sempre gostei da proposta do <code>django-compressor</code>: Concatenar e comprimir
+estáticos, utilizando como agrupadores os blocos da <em>engine</em> de <em>templates</em>
+do <a href="https://klauslaube.com.br/tag/django.html" title="Leia mais sobre Django"><em>Django</em></a>.
+Além de manter a declaração dos <em>assets</em> no <a href="https://klauslaube.com.br/tag/html.html" title="Leia mais sobre HTML"><em>HTML</em></a>,
+ele ainda abre uma margem interessante para quando você precisa customizar um grupo
+de estáticos para uma determinada página.</p>
+
+                <p class="Article-footer">
+                    Em <time datetime="2016-06-04T16:00:00-03:00" itemprop="datePublished">04 jun, 2016</time>
+                    /
+                    <a
+                        class="Article-readmore"
+                        href="https://klauslaube.com.br/2016/06/04/django-e-sass-com-django-compressor.html"
+                        title="Leia o artigo completo">Leia mais &gt</a>
+                </p>
+        </div>
+    </span>
+
+</article><article class="Article u-box" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop="url" content="https://klauslaube.com.br//images/blog/rest-logo.png">
+        </div>
+    <span itemprop="mainEntityOfPage">
+        <header>
+            <h1 class="Article-title" itemprop="headline name">
+                    <a
+                        class="Article-titleLink"
+                        href="https://klauslaube.com.br/2016/05/20/rest-parte-2.html"
+                        title="Leia mais">
+                REST - Parte 2
+                    </a>
+            </h1>
+
+        </header>
+
+        <div class="Article-content" itemprop="articleBody">
+                <p><img class="align-left" src="/images/blog/rest-logo.png" width="180" height="180" title="Logotipo REST" alt="Logotipo REST"></p>
+<p>No <a href="https://klauslaube.com.br/2016/01/06/rest-parte-1.html" title="Leia a parte 1"><em>post</em> anterior</a>, demos uma pequena introdução
+ao conceito de <em>REST</em> e fizemos um raso comparativo com o seu "rival", o <em>SOAP</em>.
+Nesse artigo falaremos mais sobre como interagir com <em>APIs</em> <em>REST</em> utilizando
+os verbos do protocolo <em>HTTP</em>, e a biblioteca <a href="http://www.hug.rest/" title="Embrace APIs of the future"><em>hug</em></a>,
+que nos ajudará a ilustrar como uma <em>API</em> funciona na prática.</p>
+
+                <p class="Article-footer">
+                    Em <time datetime="2016-05-20T12:35:00-03:00" itemprop="datePublished">20 mai, 2016</time>
+                    /
+                    <a
+                        class="Article-readmore"
+                        href="https://klauslaube.com.br/2016/05/20/rest-parte-2.html"
+                        title="Leia o artigo completo">Leia mais &gt</a>
+                </p>
+        </div>
+    </span>
+
+</article><article class="Article u-box" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop="url" content="https://klauslaube.com.br//images/blog/pyenv.jpg">
+        </div>
+    <span itemprop="mainEntityOfPage">
+        <header>
+            <h1 class="Article-title" itemprop="headline name">
+                    <a
+                        class="Article-titleLink"
+                        href="https://klauslaube.com.br/2016/04/26/o-simples-e-poderoso-pyenv.html"
+                        title="Leia mais">
+                O simples e poderoso Pyenv
+                    </a>
+            </h1>
+
+        </header>
+
+        <div class="Article-content" itemprop="articleBody">
+                <p><img class="align-left" src="/images/blog/pyenv.jpg" width="180" height="180" title="Esquema explicando o Pyenv (mateuspaduaweb.com.br)" alt="Esquema explicando o Pyenv (mateuspaduaweb.com.br)"></p>
+<p>Num certo dia, eu resolvi deixar a preguiça de lado e atualizar
+a versão do <em>Mac OS X</em> para o <em>El Capitan</em>. Na cara e coragem,
+e dotado de uma ingenuidade ímpar, simplesmente apertei o botão
+<em>Update</em> e deixei com que os deuses resolvessem qual seria o
+destino do meu <em>workspace</em> após essa fatídica operação.</p>
+
+                <p class="Article-footer">
+                    Em <time datetime="2016-04-26T09:53:00-03:00" itemprop="datePublished">26 abr, 2016</time>
+                    /
+                    <a
+                        class="Article-readmore"
+                        href="https://klauslaube.com.br/2016/04/26/o-simples-e-poderoso-pyenv.html"
+                        title="Leia o artigo completo">Leia mais &gt</a>
+                </p>
+        </div>
+    </span>
+
+</article><article class="Article u-box" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop="url" content="https://klauslaube.com.br//images/blog/javascript-logo.png">
+        </div>
+    <span itemprop="mainEntityOfPage">
+        <header>
+            <h1 class="Article-title" itemprop="headline name">
+                    <a
+                        class="Article-titleLink"
+                        href="https://klauslaube.com.br/2016/03/15/fazendo-javascript-oo-de-forma-facil-parte-2.html"
+                        title="Leia mais">
+                Fazendo Javascript OO de forma fácil - Parte 2
+                    </a>
+            </h1>
+
+        </header>
+
+        <div class="Article-content" itemprop="articleBody">
+                <p><img class="align-left" src="/images/blog/javascript-logo.png" width="180" height="180" title="Logotipo do Javascript" alt="Logotipo do Javascript"></p>
+<p>Há cerca de 5 anos, fiz um <em>post</em> sobre como escrever
+<a href="https://klauslaube.com.br/2011/05/16/fazendo-javascript-oo-de-forma-facil.html" title="Leia o artigo completo">Javascript OO de forma fácil</a>
+utilizando a orientação a objetos da linguagem através de
+<a href="https://klauslaube.com.br/2011/10/23/javascript-constructor-function-object-literal.html" title="Diferença entre Constructor Function e Object Literal"><em>Constructor Functions</em> e <em>Object Literal</em></a>.
+Hoje, com o <em>ES6</em>, o esquema de <em>Prototype</em> ainda continua,
+mas a sintaxe ficou muito mais fácil e intuitiva, valendo a pena dar um <em>revival</em>
+no tema para explorar um pouquinho mais das novas funcionalidades.</p>
+
+                <p class="Article-footer">
+                    Em <time datetime="2016-03-15T13:20:00-03:00" itemprop="datePublished">15 mar, 2016</time>
+                    /
+                    <a
+                        class="Article-readmore"
+                        href="https://klauslaube.com.br/2016/03/15/fazendo-javascript-oo-de-forma-facil-parte-2.html"
+                        title="Leia o artigo completo">Leia mais &gt</a>
+                </p>
+        </div>
+    </span>
+
+</article><article class="Article u-box" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop="url" content="https://klauslaube.com.br//images/blog/grunt-logo.png">
+        </div>
+    <span itemprop="mainEntityOfPage">
+        <header>
+            <h1 class="Article-title" itemprop="headline name">
+                    <a
+                        class="Article-titleLink"
+                        href="https://klauslaube.com.br/2016/02/22/vivendo-sem-o-grunt.html"
+                        title="Leia mais">
+                Vivendo sem o Grunt
+                    </a>
+            </h1>
+
+        </header>
+
+        <div class="Article-content" itemprop="articleBody">
+                <p><img class="align-left" src="/images/blog/grunt-logo.png" width="180" height="180" title="Logotipo do Grunt" alt="Logotipo do Grunt"></p>
+<p>No meu primeiro contato com o <em>Grunt</em>, ele não me convenceu. Qual era a
+necessidade de um <em>task runner</em>  se eu já tinha o <code>Makefile</code>? O mesmo valia
+para o <em>build</em> de estáticos... <em>Frameworks</em>  como o <em>Django</em>  já possuíam um
+<em>pipeline</em>  de concatenação e minificação, não sendo necessário que um processo
+externo interferisse em algo que (até então) funcionava muito bem.</p>
+
+                <p class="Article-footer">
+                    Em <time datetime="2016-02-22T12:35:00-03:00" itemprop="datePublished">22 fev, 2016</time>
+                    /
+                    <a
+                        class="Article-readmore"
+                        href="https://klauslaube.com.br/2016/02/22/vivendo-sem-o-grunt.html"
+                        title="Leia o artigo completo">Leia mais &gt</a>
+                </p>
+        </div>
+    </span>
+
+</article><article class="Article u-box" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop="url" content="https://klauslaube.com.br//images/blog/bdd-given-when-then.jpg">
+        </div>
+    <span itemprop="mainEntityOfPage">
+        <header>
+            <h1 class="Article-title" itemprop="headline name">
+                    <a
+                        class="Article-titleLink"
+                        href="https://klauslaube.com.br/2016/02/03/bdd-com-django-e-behave.html"
+                        title="Leia mais">
+                BDD com Django e Behave
+                    </a>
+            </h1>
+
+        </header>
+
+        <div class="Article-content" itemprop="articleBody">
+                <p><img class="align-left" src="/images/blog/bdd-given-when-then.jpg" width="180" height="180" title="Given, When, Then (opkey.crestechglobal.com)" alt="Given, When, Then (opkey.crestechglobal.com)"></p>
+<p>Testar o comportamento da sua aplicação, ao invés de pequenos módulos isolados,
+é uma grande prática no que diz respeito a escrita de testes que guiem o
+seu desenvolvimento. Deixando a polêmica do "<a href="http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html" title="TDD is dead. Long live testing.">TDD is dead</a>"
+de lado, criar cenários que garantem um determinado fluxo, além de servir
+como um excelente contrato à sua suite de aceitação, é uma ótima ferramenta
+para garantir que a integração <em>back-end/front-end</em> está funcionando de acordo
+com o esperado.</p>
+
+                <p class="Article-footer">
+                    Em <time datetime="2016-02-03T23:50:00-02:00" itemprop="datePublished">03 fev, 2016</time>
+                    /
+                    <a
+                        class="Article-readmore"
+                        href="https://klauslaube.com.br/2016/02/03/bdd-com-django-e-behave.html"
+                        title="Leia o artigo completo">Leia mais &gt</a>
+                </p>
+        </div>
+    </span>
+
+</article><article class="Article u-box" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop="url" content="https://klauslaube.com.br//images/blog/soap-vs-rest.png">
+        </div>
+    <span itemprop="mainEntityOfPage">
+        <header>
+            <h1 class="Article-title" itemprop="headline name">
+                    <a
+                        class="Article-titleLink"
+                        href="https://klauslaube.com.br/2016/01/06/rest-parte-1.html"
+                        title="Leia mais">
+                REST - Parte 1
+                    </a>
+            </h1>
+
+        </header>
+
+        <div class="Article-content" itemprop="articleBody">
+                <p><img class="align-left" src="/images/blog/soap-vs-rest.png" width="180" height="180" title="SOAP vs REST" alt="SOAP vs REST"></p>
+<p>Em tempos onde os <a href="http://www.infoq.com/br/news/2015/04/microservices-current-state" title="O estado da arte em micro serviços">microservices</a> ganham cada vez mais força, e <a href="https://dev.twitter.com/rest/public" title="Conheça a API do Twitter">aplicações de sucesso</a> liberam a sua <em>API</em> para desenvolvedores construírem um ecossistema ao redor delas, não considerar seguir boas práticas na construção de um serviço pode ser uma tomada de decisão arriscada, tanto no quesito do negócio, quanto no quesito técnico.</p>
+
+                <p class="Article-footer">
+                    Em <time datetime="2016-01-06T13:00:00-02:00" itemprop="datePublished">06 jan, 2016</time>
+                    /
+                    <a
+                        class="Article-readmore"
+                        href="https://klauslaube.com.br/2016/01/06/rest-parte-1.html"
+                        title="Leia o artigo completo">Leia mais &gt</a>
+                </p>
+        </div>
+    </span>
+
+</article><article class="Article u-box" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop="url" content="https://klauslaube.com.br//images/blog/angular-logo.png">
+        </div>
+    <span itemprop="mainEntityOfPage">
+        <header>
+            <h1 class="Article-title" itemprop="headline name">
+                    <a
+                        class="Article-titleLink"
+                        href="https://klauslaube.com.br/2015/10/24/injecao-de-dependencia.html"
+                        title="Leia mais">
+                Injeção de Dependência
+                    </a>
+            </h1>
+
+        </header>
+
+        <div class="Article-content" itemprop="articleBody">
+                <p><img class="align-left" src="/images/blog/angular-logo.png" width="180" height="180" title="Logotipo do AngularJS (titanui.com)" alt="Logotipo do AngularJS (titanui.com)"></p>
+<p>Se você já teve contato com <a href="http://laravel.com/" title="PHP framework for web artisans"><em>Laravel</em></a>
+ou <a href="https://angularjs.org/" title="HTML enhanced for web apps"><em>AngularJS</em></a>, sabe muito bem que
+um dos maiores motivos de orgulho desses (e de tantos outros) <em>frameworks</em>
+é a "Injeção de Dependência", ou do inglês, <em>Dependency Injection</em>.
+Imagine-se em uma reunião, o seu <em>Product Owner</em> pede soluções para problemas
+complexos, e você manda logo um "precisamos usar injeções de dependências"...
+É aumento salarial na hora!</p>
+
+                <p class="Article-footer">
+                    Em <time datetime="2015-10-24T16:30:00-02:00" itemprop="datePublished">24 out, 2015</time>
+                    /
+                    <a
+                        class="Article-readmore"
+                        href="https://klauslaube.com.br/2015/10/24/injecao-de-dependencia.html"
+                        title="Leia o artigo completo">Leia mais &gt</a>
+                </p>
+        </div>
+    </span>
+
+</article><article class="Article u-box" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop="url" content="https://klauslaube.com.br//images/blog/vagrant-logo.png">
+        </div>
+    <span itemprop="mainEntityOfPage">
+        <header>
+            <h1 class="Article-title" itemprop="headline name">
+                    <a
+                        class="Article-titleLink"
+                        href="https://klauslaube.com.br/2015/10/03/esse-e-mais-um-post-sobre-vagrant.html"
+                        title="Leia mais">
+                Esse é mais um post sobre Vagrant
+                    </a>
+            </h1>
+
+        </header>
+
+        <div class="Article-content" itemprop="articleBody">
+                <p><img class="align-left" src="/images/blog/vagrant-logo.png" width="180" height="180" title="Logotipo do Vagrant" alt="Logotipo do Vagrant">
+Sim! Esse é mais um <em>post</em> sobre <em>Vagrant</em>, entre tantos outros espalhados pela
+<a href="https://klauslaube.com.br/tag/web.html" title="Leia mais sobre Web"><em>Web</em></a>. Sim! Se você já conhece a ferramenta,
+provavelmente não terá nada de novo para você nesse artigo.</p>
+<p>Já falamos um pouco sobre <a href="https://klauslaube.com.br/tag/virtualizacao.html" title="Leia mais sobre Virtualização">ambientes virtuais</a>,
+e as vantagens são numerosas. A "atomicidade" de poder construir e destruir um
+ambiente inteiro, sem acarretar efeitos colaterais ao seu ambiente de trabalho,
+traz agilidade sem perder segurança e sanidade.</p>
+
+                <p class="Article-footer">
+                    Em <time datetime="2015-10-03T14:00:00-03:00" itemprop="datePublished">03 out, 2015</time>
+                    /
+                    <a
+                        class="Article-readmore"
+                        href="https://klauslaube.com.br/2015/10/03/esse-e-mais-um-post-sobre-vagrant.html"
+                        title="Leia o artigo completo">Leia mais &gt</a>
+                </p>
+        </div>
+    </span>
+
+</article>
+
+<ul class="Pagination u-box">
+        <li class="Pagination-item Pagination-item--arrow">
+            <a
+                class="Pagination-link"
+                href="    https://klauslaube.com.br/index
+2.html"
+                title="Página anterior">
+
+                <span class="Pagination-icon">&#171;</span>
+                <span class="Pagination-text">Página anterior</span>
+            </a>
+        </li>
+
+        <li class="Pagination-item">
+            <a
+                class="Pagination-link"
+                href="    https://klauslaube.com.br/index
+.html"
+                title="Página 1">1</a>
+        </li>
+        <li class="Pagination-item">
+            <a
+                class="Pagination-link"
+                href="    https://klauslaube.com.br/index
+2.html"
+                title="Página 2">2</a>
+        </li>
+        <li class="Pagination-item Pagination-item--active">
+            <a
+                class="Pagination-link Pagination-link--active"
+                href="    https://klauslaube.com.br/index
+3.html"
+                title="Página 3">3</a>
+        </li>
+        <li class="Pagination-item">
+            <a
+                class="Pagination-link"
+                href="    https://klauslaube.com.br/index
+4.html"
+                title="Página 4">4</a>
+        </li>
+        <li class="Pagination-item">
+            <a
+                class="Pagination-link"
+                href="    https://klauslaube.com.br/index
+5.html"
+                title="Página 5">5</a>
+        </li>
+        <li class="Pagination-item">
+            <a
+                class="Pagination-link"
+                href="    https://klauslaube.com.br/index
+6.html"
+                title="Página 6">6</a>
+        </li>
+        <li class="Pagination-item">
+            <a
+                class="Pagination-link"
+                href="    https://klauslaube.com.br/index
+7.html"
+                title="Página 7">7</a>
+        </li>
+        <li class="Pagination-item">
+            <a
+                class="Pagination-link"
+                href="    https://klauslaube.com.br/index
+8.html"
+                title="Página 8">8</a>
+        </li>
+        <li class="Pagination-item">
+            <a
+                class="Pagination-link"
+                href="    https://klauslaube.com.br/index
+9.html"
+                title="Página 9">9</a>
+        </li>
+        <li class="Pagination-item">
+            <a
+                class="Pagination-link"
+                href="    https://klauslaube.com.br/index
+10.html"
+                title="Página 10">10</a>
+        </li>
+
+        <li class="Pagination-item Pagination-item--arrow">
+            <a
+                class="Pagination-link"
+                href="    https://klauslaube.com.br/index
+4.html"
+                title="Próxima página">
+
+                <span class="Pagination-text">Próxima página</span>
+                <span class="Pagination-icon">&#187;</span>
+            </a>
+        </li>
+</ul>
+    </div>
+
+<footer class="PageFooter pure-u-1">
+    <div class="u-box">
+        <p>O conteúdo deste blog está sob a licença
+          <a
+              class="PageFooter-link"
+              href="http://creativecommons.org/licenses/by/3.0/deed.pt_BR"
+              title="Distribua, adapte, use. Mas mencione o autor.">Creative Commons Attribution 3.0</a>.</p>
+
+        <p>O código está disponível em
+          <a
+              class="PageFooter-link"
+              href="https://github.com/kplaube/blog/"
+              title="Contribute!">GitHub</a>.</p>
+    </div>
+</footer>  </div>
+
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-19657400-1');ga('send','pageview');
+    </script>
+</body>
+</html>
